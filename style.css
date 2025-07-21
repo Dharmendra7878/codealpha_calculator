@@ -1,0 +1,109 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body background with vibrant gradient */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Calculator Container */
+.container {
+  width: 100%;
+  max-width: 380px;
+  padding: 20px;
+}
+
+/* Calculator Box */
+.calculator {
+  background: #1e1e2f;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 20px #141421, -8px -8px 20px #292946;
+  transition: 0.3s ease-in-out;
+}
+
+/* Input Box Styling */
+#inputBox {
+  width: 100%;
+  height: 70px;
+  font-size: 2rem;
+  text-align: right;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background: #2e2e3e;
+  color: #00ffcc;
+  margin-bottom: 25px;
+  box-shadow: inset 4px 4px 8px #141421, inset -4px -4px 8px #292946;
+}
+
+/* Button Rows */
+.calculator div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+/* Common Button Styles */
+.button {
+  flex: 1;
+  margin: 5px;
+  padding: 20px 0;
+  border-radius: 15px;
+  background: #2e2e3e;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px #141421, -6px -6px 10px #292946;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.button:hover {
+  background: #3e3e5e;
+  transform: scale(1.05);
+}
+
+/* Operator Buttons */
+.operator {
+  color: #ff6b81;
+}
+
+/* Equal Button Styling */
+.equalBtn {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  color: #000;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.4);
+}
+
+.equalBtn:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 420px) {
+  .calculator {
+    padding: 20px;
+  }
+
+  .button {
+    padding: 16px 0;
+    font-size: 1rem;
+  }
+
+  #inputBox {
+    font-size: 1.5rem;
+    height: 60px;
+  }
+}
