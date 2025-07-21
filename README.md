@@ -13,17 +13,15 @@ A simple and interactive calculator built using **HTML**, **CSS**, and **JavaScr
 - ✅ Keyboard input support (Bonus)
 - ✅ Stylish and responsive user interface
 
-## 🖼️ Preview
 
-![Calculator Screenshot](screenshot.png)
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 - HTML
 - CSS
 - JavaScript
 
-## 📁 Getting Started
+📁 Getting Started
 
 To run this project locally:
 
